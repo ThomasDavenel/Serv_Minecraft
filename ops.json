@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "760ab02f-79ed-3949-9677-d18eba795092",
+    "name": "Britenn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bb659604-a5d4-36f0-ad39-5cbb55885654",
+    "name": "Boubou",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "67d66c36-59d3-386c-8341-b45d040de377",
+    "name": "Larcen",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,72 @@
+[18:11:35] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:11:35] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:11:35] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:11:35] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:11:35] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:11:35] [main/INFO]: Reloading ResourceManager: Default
+[18:11:36] [Worker-Main-5/INFO]: Loaded 7 recipes
+[18:11:36] [Worker-Main-5/INFO]: Loaded 927 advancements
+[18:11:38] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[18:11:38] [Server thread/INFO]: Loading properties
+[18:11:38] [Server thread/INFO]: Default game type: SURVIVAL
+[18:11:38] [Server thread/INFO]: Generating keypair
+[18:11:38] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_271]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_271]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_271]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_271]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_271]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
+	at zg$1.run(SourceFile:95) [server.jar:?]
+[18:11:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:11:38] [Server thread/INFO]: Using default channel type
+[18:11:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:11:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:11:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:11:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:11:43] [Server thread/INFO]: Preparing level "world"
+[18:11:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:11:45] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:45] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:45] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:45] [Server thread/INFO]: Preparing spawn area: 0%
+[18:11:46] [Server thread/INFO]: Time elapsed: 2609 ms
+[18:11:46] [Server thread/INFO]: Done (3.091s)! For help, type "help"
+[18:11:58] [Server thread/INFO]: Larcen[/127.0.0.1:53653] logged in with entity id 164 at (-46.254772955395815, 66.0, -172.05438601488237)
+[18:11:58] [Server thread/INFO]: Larcen joined the game
+[18:19:39] [Server thread/INFO]: Larcen has made the advancement [Not Today, Thank You]
+[18:19:57] [Server thread/INFO]: Boubou[/25.74.166.45:50521] logged in with entity id 1148 at (-44.44324254265082, 64.0, -171.88571415993601)
+[18:19:57] [Server thread/INFO]: Boubou joined the game
+[18:55:29] [Server thread/INFO]: Larcen has made the advancement [Enchanter]
+[18:58:07] [Server thread/INFO]: Boubou has made the advancement [Enchanter]
+[19:29:25] [Server thread/INFO]: Larcen has made the advancement [Voluntary Exile]
+[19:39:24] [Server thread/INFO]: Boubou was shot by Skeleton
+[19:42:48] [Server thread/INFO]: Boubou has made the advancement [Not Today, Thank You]
+[19:43:24] [Server thread/INFO]: Boubou was shot by Skeleton
+[19:44:26] [Server thread/INFO]: Boubou was slain by Zombie
+[19:50:47] [Server thread/INFO]: Boubou was slain by Trader Llama
+[20:01:06] [Server thread/INFO]: Larcen has made the advancement [The Parrots and the Bats]
+[20:14:42] [Server thread/INFO]: <Larcen> -45 -170
+[20:30:16] [Server thread/INFO]: Larcen lost connection: Disconnected
+[20:30:16] [Server thread/INFO]: Larcen left the game
+[20:30:41] [Server thread/INFO]: Boubou lost connection: Disconnected
+[20:30:41] [Server thread/INFO]: Boubou left the game
+[20:30:43] [Server thread/INFO]: Stopping the server
+[20:30:43] [Server thread/INFO]: Stopping server
+[20:30:43] [Server thread/INFO]: Saving players
+[20:30:43] [Server thread/INFO]: Saving worlds
+[20:30:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:30:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:30:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:30:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:30:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:30:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:30:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:30:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:30:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
