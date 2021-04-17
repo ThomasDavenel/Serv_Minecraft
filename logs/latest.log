@@ -1,17 +1,17 @@
-[20:15:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:15:51] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:15:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:15:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:15:51] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:15:51] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:15:52] [main/INFO]: Reloading ResourceManager: Default
-[20:15:53] [Worker-Main-6/INFO]: Loaded 7 recipes
-[20:15:53] [Worker-Main-6/INFO]: Loaded 927 advancements
-[20:15:57] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[20:15:57] [Server thread/INFO]: Loading properties
-[20:15:57] [Server thread/INFO]: Default game type: SURVIVAL
-[20:15:57] [Server thread/INFO]: Generating keypair
-[20:15:57] [Server console handler/ERROR]: Exception handling console input
+[15:57:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:57:22] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:57:22] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:57:22] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:57:22] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:57:22] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:57:22] [main/INFO]: Reloading ResourceManager: Default
+[15:57:23] [Worker-Main-4/INFO]: Loaded 7 recipes
+[15:57:23] [Worker-Main-4/INFO]: Loaded 927 advancements
+[15:57:25] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[15:57:25] [Server thread/INFO]: Loading properties
+[15:57:25] [Server thread/INFO]: Default game type: SURVIVAL
+[15:57:25] [Server thread/INFO]: Generating keypair
+[15:57:25] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Descripteur non valide
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_271]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_271]
@@ -25,137 +25,76 @@ java.io.IOException: Descripteur non valide
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
 	at zg$1.run(SourceFile:95) [server.jar:?]
-[20:15:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:15:58] [Server thread/INFO]: Using default channel type
-[20:15:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:15:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:15:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:15:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:15:59] [Server thread/INFO]: Preparing level "world_polo"
-[20:16:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:16:02] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:02] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:02] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:02] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:02] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:02] [Server thread/INFO]: Preparing spawn area: 0%
-[20:16:04] [Server thread/INFO]: Time elapsed: 4279 ms
-[20:16:04] [Server thread/INFO]: Done (4.501s)! For help, type "help"
-[20:16:41] [Server thread/INFO]: Larcen[/127.0.0.1:51368] logged in with entity id 95 at (-1574.5608506198373, 29.0, 278.11222428337874)
-[20:16:41] [Server thread/INFO]: Larcen joined the game
-[20:16:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[20:17:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2346ms or 46 ticks behind
-[20:18:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:18:08] [Server thread/INFO]: /ping<--[HERE]
-[20:18:11] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[20:18:11] [Server thread/INFO]: ping<--[HERE]
-[20:22:24] [Server thread/INFO]: Larcen lost connection: Disconnected
-[20:22:24] [Server thread/INFO]: Larcen left the game
-[20:37:53] [Server thread/INFO]: Larcen[/127.0.0.1:53000] logged in with entity id 744 at (-1568.3996299789276, 29.0, 275.8754767915513)
-[20:37:53] [Server thread/INFO]: Larcen joined the game
-[20:38:30] [Server thread/INFO]: Britenn[/25.105.198.101:54063] logged in with entity id 1000 at (-1574.376766495341, 29.0, 280.57928945661934)
-[20:38:30] [Server thread/INFO]: Britenn joined the game
-[20:40:57] [Server thread/INFO]: Boubou[/25.74.166.45:51884] logged in with entity id 1203 at (-1566.8881545036668, 29.0, 275.30000001192093)
-[20:40:57] [Server thread/INFO]: Boubou joined the game
-[20:41:16] [Server thread/INFO]: Boubou lost connection: Timed out
-[20:41:16] [Server thread/INFO]: Boubou left the game
-[20:41:44] [Server thread/INFO]: Boubou[/25.74.166.45:51887] logged in with entity id 1271 at (-1566.8881545036668, 29.0, 275.30000001192093)
-[20:41:44] [Server thread/INFO]: Boubou joined the game
-[20:44:16] [Server thread/WARN]: Fetching packet for removed entity aqg['Experience Orb'/1471, l='ServerLevel[world_polo]', x=-184.75, y=63.00, z=32.25]
-[20:44:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
-[20:45:11] [Server thread/INFO]: Boubou lost connection: Timed out
-[20:45:11] [Server thread/INFO]: Boubou left the game
-[20:45:35] [Server thread/INFO]: Boubou[/25.74.166.45:51893] logged in with entity id 1717 at (-183.731781391931, 63.0, 33.5)
-[20:45:35] [Server thread/INFO]: Boubou joined the game
-[20:47:31] [Server thread/INFO]: [Larcen: The difficulty has been set to Hard]
-[20:53:37] [Server thread/INFO]: Britenn was slain by Piglin
-[20:53:48] [Server thread/INFO]: Britenn lost connection: Disconnected
-[20:53:48] [Server thread/INFO]: Britenn left the game
-[20:53:51] [Server thread/INFO]: Boubou lost connection: Timed out
-[20:53:51] [Server thread/INFO]: Boubou left the game
-[20:53:53] [Server thread/INFO]: Larcen burned to death
-[20:54:02] [Server thread/INFO]: Boubou[/25.74.166.45:51903] logged in with entity id 2942 at (68.91120109495542, 67.0, 106.3409563423488)
-[20:54:02] [Server thread/INFO]: Boubou joined the game
-[20:54:05] [Server thread/INFO]: Britenn[/25.105.198.101:54132] logged in with entity id 3133 at (89.50992507996713, 74.0, 109.38613843353191)
-[20:54:05] [Server thread/INFO]: Britenn joined the game
-[20:54:24] [Server thread/INFO]: Boubou has made the advancement [Ice Bucket Challenge]
-[20:54:26] [Server thread/INFO]: Boubou was slain by Piglin
-[20:54:36] [Server thread/INFO]: Britenn lost connection: Timed out
-[20:54:36] [Server thread/INFO]: Britenn left the game
-[20:54:45] [Server thread/INFO]: Larcen was fireballed by Blaze
-[20:54:53] [Server thread/INFO]: Boubou lost connection: Timed out
-[20:54:53] [Server thread/INFO]: Boubou left the game
-[20:55:03] [Server thread/INFO]: Britenn[/25.105.198.101:54139] logged in with entity id 3711 at (89.50992507996713, 74.0, 109.38613843353191)
-[20:55:03] [Server thread/INFO]: Britenn joined the game
-[20:55:35] [Server thread/INFO]: Boubou[/25.74.166.45:51906] logged in with entity id 3959 at (82.35035322275259, 71.0, 102.8649859793268)
-[20:55:35] [Server thread/INFO]: Boubou joined the game
-[20:55:36] [Server thread/INFO]: Britenn lost connection: Timed out
-[20:55:36] [Server thread/INFO]: Britenn left the game
-[20:55:54] [Server thread/INFO]: Britenn[/25.105.198.101:54147] logged in with entity id 4001 at (89.50992507996713, 74.0, 109.38613843353191)
-[20:55:54] [Server thread/INFO]: Britenn joined the game
-[20:56:04] [Server thread/INFO]: Larcen was slain by Piglin
-[20:56:09] [Server thread/INFO]: Boubou lost connection: Disconnected
-[20:56:09] [Server thread/INFO]: Boubou left the game
-[20:56:27] [Server thread/INFO]: Boubou[/25.74.166.45:51909] logged in with entity id 4381 at (82.35035322275259, 71.0, 102.8649859793268)
-[20:56:27] [Server thread/INFO]: Boubou joined the game
-[20:56:29] [Server thread/INFO]: Britenn lost connection: Disconnected
-[20:56:29] [Server thread/INFO]: Britenn left the game
-[20:56:32] [Server thread/INFO]: [Larcen: The difficulty has been set to Peaceful]
-[20:56:40] [Server thread/INFO]: Britenn[/25.105.198.101:54149] logged in with entity id 4407 at (89.50992507996713, 74.0, 109.38613843353191)
-[20:56:40] [Server thread/INFO]: Britenn joined the game
-[20:56:49] [Server thread/INFO]: Boubou lost connection: Timed out
-[20:56:49] [Server thread/INFO]: Boubou left the game
-[20:56:59] [Server thread/INFO]: Britenn lost connection: Timed out
-[20:56:59] [Server thread/INFO]: Britenn left the game
-[20:57:01] [Server thread/INFO]: Boubou[/25.74.166.45:51912] logged in with entity id 4410 at (76.75929767330645, 68.0, 103.3811897734634)
-[20:57:01] [Server thread/INFO]: Boubou joined the game
-[20:58:07] [Server thread/INFO]: [Larcen: Teleported Boubou to Larcen]
-[20:58:15] [Server thread/INFO]: [Larcen: Teleported 2 entities to Larcen]
-[21:00:00] [Server thread/INFO]: Britenn[/25.105.198.101:63382] logged in with entity id 4680 at (90.1624376485826, 74.0, 109.69999998807907)
-[21:00:01] [Server thread/INFO]: Britenn joined the game
-[21:00:22] [Server thread/INFO]: [Larcen: Teleported Britenn to Larcen]
-[21:00:25] [Server thread/INFO]: Britenn lost connection: Disconnected
-[21:00:25] [Server thread/INFO]: Britenn left the game
-[21:04:53] [Server thread/INFO]: Britenn[/25.105.198.101:53409] logged in with entity id 4911 at (88.77647907425526, 73.0, 106.56285196828436)
-[21:04:53] [Server thread/INFO]: Britenn joined the game
-[21:05:36] [Server thread/INFO]: Britenn lost connection: Timed out
-[21:05:36] [Server thread/INFO]: Britenn left the game
-[21:05:55] [Server thread/INFO]: Britenn[/25.105.198.101:53432] logged in with entity id 4937 at (88.77647907425526, 73.0, 106.56285196828436)
-[21:05:55] [Server thread/INFO]: Britenn joined the game
-[21:06:38] [Server thread/INFO]: Britenn lost connection: Timed out
-[21:06:38] [Server thread/INFO]: Britenn left the game
-[21:09:40] [Server thread/INFO]: Britenn[/25.105.198.101:54224] logged in with entity id 4955 at (88.77647907425526, 73.0, 106.56285196828436)
-[21:09:40] [Server thread/INFO]: Britenn joined the game
-[21:10:01] [Server thread/INFO]: Britenn lost connection: Timed out
-[21:10:01] [Server thread/INFO]: Britenn left the game
-[21:10:11] [Server thread/INFO]: Britenn[/25.105.198.101:54237] logged in with entity id 4956 at (82.55289650405419, 73.17675927506424, 104.69794036430373)
-[21:10:11] [Server thread/INFO]: Britenn joined the game
-[21:10:42] [Server thread/INFO]: Britenn lost connection: Timed out
-[21:10:42] [Server thread/INFO]: Britenn left the game
-[21:10:58] [Server thread/INFO]: Britenn[/25.105.198.101:54241] logged in with entity id 4957 at (82.55289650405419, 73.17675927506424, 104.69794036430373)
-[21:10:58] [Server thread/INFO]: Britenn joined the game
-[21:11:41] [Server thread/INFO]: Boubou lost connection: Timed out
-[21:11:41] [Server thread/INFO]: Boubou left the game
-[21:11:41] [Server thread/INFO]: Britenn lost connection: Timed out
-[21:11:41] [Server thread/INFO]: Britenn left the game
-[21:11:53] [Server thread/INFO]: Britenn[/25.105.198.101:54250] logged in with entity id 4958 at (82.55289650405419, 73.17675927506424, 104.69794036430373)
-[21:11:53] [Server thread/INFO]: Britenn joined the game
-[21:12:21] [Server thread/INFO]: Boubou[/25.74.166.45:51960] logged in with entity id 4959 at (59.38451687249366, 67.0, 110.77300565641015)
-[21:12:21] [Server thread/INFO]: Boubou joined the game
-[21:12:24] [Server thread/INFO]: Britenn lost connection: Timed out
-[21:12:24] [Server thread/INFO]: Britenn left the game
-[21:12:54] [Server thread/INFO]: Boubou lost connection: Timed out
-[21:12:54] [Server thread/INFO]: Boubou left the game
-[21:13:12] [Server thread/INFO]: [Larcen: Stopping the server]
-[21:13:13] [Server thread/INFO]: Stopping server
-[21:13:13] [Server thread/INFO]: Saving players
-[21:13:13] [Server thread/INFO]: Saving worlds
-[21:13:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_polo]'/minecraft:overworld
-[21:13:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_polo): All chunks are saved
-[21:13:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_polo]'/minecraft:the_nether
-[21:13:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:13:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_polo]'/minecraft:the_end
-[21:13:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:13:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_polo): All chunks are saved
-[21:13:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:13:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:57:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:57:25] [Server thread/INFO]: Using default channel type
+[15:57:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:57:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:57:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:57:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:57:29] [Server thread/INFO]: Preparing level "world_polo"
+[15:57:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:57:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:57:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:57:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:57:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:57:31] [Server thread/INFO]: Preparing spawn area: 47%
+[15:57:32] [Server thread/INFO]: Time elapsed: 3211 ms
+[15:57:32] [Server thread/INFO]: Done (3.402s)! For help, type "help"
+[15:58:00] [Server thread/INFO]: Larcen[/127.0.0.1:51219] logged in with entity id 93 at (57.861448350314724, 67.0, 106.62889527961383)
+[15:58:00] [Server thread/INFO]: Larcen joined the game
+[15:58:15] [Server thread/INFO]: Boubou[/25.111.196.97:54947] logged in with entity id 208 at (59.38451687249366, 67.0, 110.77300565641015)
+[15:58:15] [Server thread/INFO]: Boubou joined the game
+[15:58:51] [Server thread/INFO]: [Larcen: The difficulty has been set to Hard]
+[16:01:41] [Server thread/INFO]: Britenn[/25.66.47.92:58591] logged in with entity id 492 at (82.55289650405419, 73.17675927506424, 104.69794036430373)
+[16:01:41] [Server thread/INFO]: Britenn joined the game
+[16:01:56] [Server thread/INFO]: [Larcen: Teleported Britenn to Larcen]
+[16:05:00] [Server thread/INFO]: <Britenn> oui
+[16:05:18] [Server thread/INFO]: <Britenn> il faut changer dans les parametres discord
+[16:06:49] [Server thread/INFO]: Larcen was slain by Wither Skeleton
+[16:07:00] [Server thread/INFO]: [Larcen: Teleported Larcen to Britenn]
+[16:07:11] [Server thread/INFO]: Britenn was slain by Wither Skeleton
+[16:07:31] [Server thread/INFO]: [Larcen: Teleported Britenn to Larcen]
+[16:11:25] [Server thread/INFO]: Boubou was slain by Piglin
+[16:11:47] [Server thread/INFO]: [Larcen: Teleported Boubou to Larcen]
+[16:12:54] [Server thread/INFO]: Boubou lost connection: Timed out
+[16:12:54] [Server thread/INFO]: Boubou left the game
+[16:13:03] [Server thread/INFO]: Boubou[/25.111.196.97:54991] logged in with entity id 2696 at (17.410801118155426, 95.0, 5.848968827177875)
+[16:13:04] [Server thread/INFO]: Boubou joined the game
+[16:15:15] [Server thread/WARN]: Boubou moved too quickly! -1.5322604187494662,1.0,-9.845429301939582
+[16:15:29] [Server thread/INFO]: Boubou lost connection: Timed out
+[16:15:29] [Server thread/INFO]: Boubou left the game
+[16:15:41] [Server thread/INFO]: Boubou[/25.111.196.97:55004] logged in with entity id 3077 at (-29.39083782633656, 92.0, -42.95911326044222)
+[16:15:41] [Server thread/INFO]: Boubou joined the game
+[16:18:57] [Server thread/INFO]: Boubou tried to swim in lava
+[16:18:57] [Server thread/INFO]: [Larcen: Teleported Boubou to Larcen]
+[16:18:57] [Server thread/WARN]: Boubou moved too quickly! 48.64066489450893,-10.137818961066358,89.88331472933143
+[16:20:36] [Server thread/INFO]: Britenn was slain by Wither Skeleton
+[16:20:56] [Server thread/INFO]: [Larcen: Teleported Britenn to Larcen]
+[16:21:32] [Server thread/INFO]: Britenn was slain by Wither Skeleton
+[16:21:47] [Server thread/INFO]: [Larcen: Teleported Britenn to Larcen]
+[16:22:02] [Server thread/INFO]: <Larcen> -184 32
+[16:25:17] [Server thread/INFO]: Britenn was slain by Wither Skeleton
+[16:25:28] [Server thread/INFO]: [Larcen: Teleported Britenn to Larcen]
+[16:34:32] [Server thread/INFO]: Britenn was shot by Skeleton
+[16:34:33] [Server thread/WARN]: Fetching packet for removed entity bcv['Iron Ore'/7228, l='ServerLevel[world_polo]', x=-1479.13, y=19.11, z=304.66]
+[16:35:37] [Server thread/INFO]: Larcen was blown up by Creeper
+[16:52:45] [Server thread/INFO]: Britenn was slain by Wither Skeleton
+[16:56:05] [Server thread/INFO]: Boubou was slain by Enderman
+[16:58:33] [Server thread/INFO]: [Larcen: Teleported Britenn to Larcen]
+[16:59:02] [Server thread/INFO]: Britenn lost connection: Disconnected
+[16:59:02] [Server thread/INFO]: Britenn left the game
+[16:59:10] [Server thread/INFO]: [Larcen: Stopping the server]
+[16:59:10] [Server thread/INFO]: Stopping server
+[16:59:10] [Server thread/INFO]: Saving players
+[16:59:10] [Server thread/INFO]: Boubou lost connection: Disconnected
+[16:59:10] [Server thread/INFO]: Boubou left the game
+[16:59:10] [Server thread/INFO]: Saving worlds
+[16:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_polo]'/minecraft:overworld
+[16:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_polo): All chunks are saved
+[16:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_polo]'/minecraft:the_nether
+[16:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_polo]'/minecraft:the_end
+[16:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:59:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world_polo): All chunks are saved
+[16:59:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:59:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
