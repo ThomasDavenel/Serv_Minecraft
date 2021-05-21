@@ -1,16 +1,16 @@
-[21:35:14] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:35:14] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:35:14] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:35:14] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:35:14] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:35:14] [main/INFO]: Reloading ResourceManager: Default
-[21:35:15] [Worker-Main-5/INFO]: Loaded 7 recipes
-[21:35:16] [Worker-Main-5/INFO]: Loaded 927 advancements
-[21:35:18] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[21:35:18] [Server thread/INFO]: Loading properties
-[21:35:18] [Server thread/INFO]: Default game type: SURVIVAL
-[21:35:18] [Server thread/INFO]: Generating keypair
-[21:35:18] [Server console handler/ERROR]: Exception handling console input
+[22:45:30] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:45:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:45:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:45:30] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22:45:30] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22:45:30] [main/INFO]: Reloading ResourceManager: Default
+[22:45:31] [Worker-Main-4/INFO]: Loaded 7 recipes
+[22:45:31] [Worker-Main-4/INFO]: Loaded 927 advancements
+[22:45:34] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[22:45:34] [Server thread/INFO]: Loading properties
+[22:45:34] [Server thread/INFO]: Default game type: SURVIVAL
+[22:45:34] [Server thread/INFO]: Generating keypair
+[22:45:34] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Descripteur non valide
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_271]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_271]
@@ -24,107 +24,41 @@ java.io.IOException: Descripteur non valide
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
 	at zg$1.run(SourceFile:95) [server.jar:?]
-[21:35:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:35:18] [Server thread/INFO]: Using default channel type
-[21:35:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:35:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:35:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:35:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:35:22] [Server thread/INFO]: Preparing level "Mon premier monde"
-[21:35:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:35:23] [Server thread/INFO]: Preparing spawn area: 0%
-[21:35:23] [Server thread/INFO]: Preparing spawn area: 0%
-[21:35:23] [Server thread/INFO]: Preparing spawn area: 0%
-[21:35:23] [Server thread/INFO]: Preparing spawn area: 0%
-[21:35:24] [Server thread/INFO]: Preparing spawn area: 88%
-[21:35:25] [Server thread/INFO]: Time elapsed: 3091 ms
-[21:35:25] [Server thread/INFO]: Done (3.199s)! For help, type "help"
-[21:35:49] [Server thread/INFO]: Larcen[/127.0.0.1:52972] logged in with entity id 137 at (-37.5, 64.0, -241.5)
-[21:35:49] [Server thread/INFO]: Larcen joined the game
-[21:36:32] [Server thread/INFO]: Boubou[/25.74.166.45:51489] logged in with entity id 297 at (-37.5, 64.0, -238.5)
-[21:36:32] [Server thread/INFO]: Boubou joined the game
-[21:44:40] [Server thread/INFO]: Larcen has made the advancement [Acquire Hardware]
-[21:45:16] [Server thread/INFO]: Boubou has made the advancement [Acquire Hardware]
-[21:45:19] [Server thread/INFO]: Larcen has made the advancement [Isn't It Iron Pick]
-[21:45:19] [Server thread/INFO]: Larcen has made the advancement [Suit Up]
-[21:46:41] [Server thread/INFO]: Boubou has made the advancement [Suit Up]
-[21:46:41] [Server thread/INFO]: Boubou has made the advancement [Isn't It Iron Pick]
-[21:47:10] [Server thread/INFO]: Larcen has made the advancement [Stone Age]
-[21:47:18] [Server thread/INFO]: Larcen has made the advancement [We Need to Go Deeper]
-[21:47:18] [Server thread/WARN]: Fetching packet for removed entity bcv['Cobblestone'/2226, l='ServerLevel[Mon premier monde]', x=-12.88, y=71.00, z=17.55]
-[21:47:23] [Server thread/INFO]: Larcen has made the advancement [Monster Hunter]
-[21:47:47] [Server thread/INFO]: Boubou has made the advancement [We Need to Go Deeper]
-[21:47:48] [Server thread/INFO]: Boubou has made the advancement [Stone Age]
-[21:47:48] [Server thread/WARN]: Fetching packet for removed entity bcv['Cobblestone'/2459, l='ServerLevel[Mon premier monde]', x=-13.13, y=71.00, z=18.11]
-[21:47:48] [Server thread/WARN]: Fetching packet for removed entity bcv['Cobblestone'/2462, l='ServerLevel[Mon premier monde]', x=-12.29, y=71.00, z=17.56]
-[21:49:05] [Server thread/INFO]: Larcen has made the advancement [Those Were the Days]
-[21:49:11] [Server thread/INFO]: Boubou has made the advancement [Those Were the Days]
-[21:49:31] [Server thread/INFO]: Larcen tried to swim in lava
-[21:49:33] [Server thread/INFO]: Boubou tried to swim in lava
-[21:51:12] [Server thread/INFO]: Larcen has made the advancement [Sweet Dreams]
-[21:51:47] [Server thread/INFO]: Boubou has made the advancement [Sweet Dreams]
-[21:52:21] [Server thread/INFO]: Larcen has made the advancement [Getting an Upgrade]
-[21:56:21] [Server thread/INFO]: Larcen has made the advancement [Not Today, Thank You]
-[21:57:35] [Server thread/INFO]: Boubou has made the advancement [A Seedy Place]
-[22:01:00] [Server thread/INFO]: Boubou has made the advancement [Monster Hunter]
-[22:02:46] [Server thread/INFO]: Larcen has made the advancement [War Pigs]
-[22:04:03] [Server thread/INFO]: Larcen tried to swim in lava
-[22:07:02] [Server thread/INFO]: Boubou has made the advancement [Getting an Upgrade]
-[22:17:36] [Server thread/INFO]: Boubou has made the advancement [Not Today, Thank You]
-[22:26:10] [Server thread/INFO]: Larcen was shot by Skeleton
-[22:26:28] [Server thread/INFO]: [Larcen: Teleported Larcen to Boubou]
-[22:30:10] [Server thread/INFO]: Larcen has completed the challenge [Return to Sender]
-[22:34:44] [Server thread/INFO]: Boubou went up in flames
-[22:34:59] [Server thread/INFO]: [Larcen: Teleported Boubou to Larcen]
-[22:37:44] [Server thread/INFO]: Larcen has made the advancement [A Terrible Fortress]
-[22:38:19] [Server thread/INFO]: Boubou has made the advancement [A Terrible Fortress]
-[22:44:49] [Server thread/INFO]: Boubou was burnt to a crisp whilst fighting Blaze
-[22:44:56] [Server thread/INFO]: Larcen has made the advancement [Into Fire]
-[22:44:59] [Server thread/INFO]: [Larcen: Teleported Boubou to Larcen]
-[22:45:25] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\Mon premier monde\playerdata\bb659604-a5d4-36f0-ad39-5cbb55885654.dat -> .\Mon premier monde\playerdata\bb659604-a5d4-36f0-ad39-5cbb55885654.dat_old: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus.
-
-	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:1.8.0_271]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:1.8.0_271]
-	at sun.nio.fs.WindowsFileCopy.move(Unknown Source) ~[?:1.8.0_271]
-	at sun.nio.fs.WindowsFileSystemProvider.move(Unknown Source) ~[?:1.8.0_271]
-	at java.nio.file.Files.move(Unknown Source) ~[?:1.8.0_271]
-	at x$2.getAsBoolean(SourceFile:467) ~[server.jar:?]
-	at x.a(SourceFile:532) ~[server.jar:?]
-	at x.a(SourceFile:542) ~[server.jar:?]
-	at x.a(SourceFile:559) ~[server.jar:?]
-	at x.a(SourceFile:552) ~[server.jar:?]
-	at cyk.a(SourceFile:38) ~[server.jar:?]
-	at acu.b(SourceFile:350) ~[server.jar:?]
-	at acu.h(SourceFile:694) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:829) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.w(SourceFile:670) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:257) ~[server.jar:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_271]
-[22:45:25] [Server thread/WARN]: Failed to execute rename .\Mon premier monde\playerdata\bb659604-a5d4-36f0-ad39-5cbb55885654.dat to .\Mon premier monde\playerdata\bb659604-a5d4-36f0-ad39-5cbb55885654.dat_old
-[22:45:25] [Server thread/ERROR]: Failed to create backup .\Mon premier monde\playerdata\bb659604-a5d4-36f0-ad39-5cbb55885654.dat_old, retrying 0/10
-[22:46:26] [Server thread/INFO]: Larcen was burnt to a crisp whilst fighting Blaze
-[22:46:32] [Server thread/INFO]: [Larcen: Teleported Larcen to Boubou]
-[22:51:32] [Server thread/INFO]: Boubou walked into fire whilst fighting Blaze
-[22:52:12] [Server thread/INFO]: Larcen was fireballed by Blaze
-[22:53:04] [Server thread/INFO]: [Larcen: Teleported Larcen to Boubou]
-[22:53:04] [Server thread/WARN]: Larcen moved too quickly! -39.31755561712356,-5.0625,316.73678458806563
-[22:53:14] [Server thread/INFO]: [Larcen: Set own game mode to Creative Mode]
-[22:53:44] [Server thread/INFO]: Boubou has made the advancement [Into Fire]
-[22:54:43] [Server thread/INFO]: Larcen lost connection: Disconnected
-[22:54:43] [Server thread/INFO]: Larcen left the game
-[22:54:52] [Server thread/INFO]: Stopping the server
-[22:54:52] [Server thread/INFO]: Stopping server
-[22:54:52] [Server thread/INFO]: Saving players
-[22:54:52] [Server thread/INFO]: Boubou lost connection: Server closed
-[22:54:52] [Server thread/INFO]: Boubou left the game
-[22:54:52] [Server thread/INFO]: Saving worlds
-[22:54:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mon premier monde]'/minecraft:overworld
-[22:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mon premier monde): All chunks are saved
-[22:54:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mon premier monde]'/minecraft:the_nether
-[22:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:54:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mon premier monde]'/minecraft:the_end
-[22:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mon premier monde): All chunks are saved
-[22:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:54:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:45:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:45:34] [Server thread/INFO]: Using default channel type
+[22:45:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:45:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:45:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:45:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:45:37] [Server thread/INFO]: Preparing level "world"
+[22:45:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:45:38] [Server thread/INFO]: Preparing spawn area: 0%
+[22:45:38] [Server thread/INFO]: Preparing spawn area: 0%
+[22:45:38] [Server thread/INFO]: Preparing spawn area: 0%
+[22:45:39] [Server thread/INFO]: Preparing spawn area: 0%
+[22:45:40] [Server thread/INFO]: Time elapsed: 2566 ms
+[22:45:40] [Server thread/INFO]: Done (2.796s)! For help, type "help"
+[22:50:17] [Server thread/INFO]: Larcen[/127.0.0.1:56601] logged in with entity id 174 at (-24.26495939537251, 63.0, -160.62640453239712)
+[22:50:17] [Server thread/INFO]: Larcen joined the game
+[22:53:10] [Server thread/INFO]: Boubou[/25.111.196.97:61603] logged in with entity id 552 at (-44.567261715385165, 60.0, -170.45883970286587)
+[22:53:10] [Server thread/INFO]: Boubou joined the game
+[23:14:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[23:14:06] [Server thread/INFO]: bn<--[HERE]
+[23:26:15] [Server thread/INFO]: [Server] bn
+[23:37:31] [Server thread/INFO]: Larcen lost connection: Disconnected
+[23:37:31] [Server thread/INFO]: Larcen left the game
+[23:37:37] [Server thread/INFO]: Stopping the server
+[23:37:37] [Server thread/INFO]: Stopping server
+[23:37:37] [Server thread/INFO]: Saving players
+[23:37:37] [Server thread/INFO]: Boubou lost connection: Disconnected
+[23:37:37] [Server thread/INFO]: Boubou left the game
+[23:37:37] [Server thread/INFO]: Saving worlds
+[23:37:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:37:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:37:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:37:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
